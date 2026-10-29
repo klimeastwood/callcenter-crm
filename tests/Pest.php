@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\URL;
 use Laravel\Sanctum\Sanctum;
 use Tests\TestCase;
@@ -93,6 +94,21 @@ function getDefaultAdmin()
         'view_permission' => 'global',
         'role_id' => $role->id,
     ]);
+}
+
+/**
+ * Select the panel locale the way Configuration → General → Locale does.
+ *
+ * The admin `Locale` middleware resolves nothing else — it reads
+ * `general.general.locale_settings.locale` from the system config on every
+ * request — so writing that row is the whole switch.
+ */
+function useAdminLocale(string $locale): void
+{
+    DB::table('core_config')->updateOrInsert(
+        ['code' => 'general.general.locale_settings.locale'],
+        ['value' => $locale]
+    );
 }
 
 /**

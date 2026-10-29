@@ -10,6 +10,7 @@ use Webkul\Attribute\Providers\AttributeServiceProvider;
 use Webkul\Automation\Providers\WorkflowServiceProvider;
 use Webkul\Contact\Providers\ContactServiceProvider;
 use Webkul\Core\Providers\CoreServiceProvider;
+use Webkul\CryptoCallCenter\Providers\CryptoCallCenterServiceProvider;
 use Webkul\DataGrid\Providers\DataGridServiceProvider;
 use Webkul\DataTransfer\Providers\DataTransferServiceProvider;
 use Webkul\Email\Providers\EmailServiceProvider;
@@ -46,6 +47,7 @@ return [
     AttributeServiceProvider::class,
     WorkflowServiceProvider::class,
     ContactServiceProvider::class,
+    CryptoCallCenterServiceProvider::class,
     CoreServiceProvider::class,
     DataGridServiceProvider::class,
     DataTransferServiceProvider::class,

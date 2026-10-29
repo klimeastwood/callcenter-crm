@@ -5,6 +5,7 @@ use Webkul\Attribute\Providers\ModuleServiceProvider as AttributeModuleServicePr
 use Webkul\Automation\Providers\ModuleServiceProvider as AutomationModuleServiceProvider;
 use Webkul\Contact\Providers\ModuleServiceProvider as ContactModuleServiceProvider;
 use Webkul\Core\Providers\ModuleServiceProvider as CoreModuleServiceProvider;
+use Webkul\CryptoCallCenter\Providers\ModuleServiceProvider as CryptoCallCenterModuleServiceProvider;
 use Webkul\DataGrid\Providers\ModuleServiceProvider as DataGridModuleServiceProvider;
 use Webkul\DataTransfer\Providers\ModuleServiceProvider as DataTransferModuleServiceProvider;
 use Webkul\Email\Providers\ModuleServiceProvider as EmailModuleServiceProvider;
@@ -24,6 +25,7 @@ return [
         AttributeModuleServiceProvider::class,
         AutomationModuleServiceProvider::class,
         ContactModuleServiceProvider::class,
+        CryptoCallCenterModuleServiceProvider::class,
         CoreModuleServiceProvider::class,
         DataGridModuleServiceProvider::class,
         EmailTemplateModuleServiceProvider::class,

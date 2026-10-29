@@ -1,0 +1,19 @@
+{
+    "name": "krayin/laravel-crypto-call-center",
+    "license": "MIT",
+    "description": "Crypto call center extension for Krayin CRM.",
+    "autoload": {
+        "psr-4": {
+            "Webkul\\CryptoCallCenter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\CryptoCallCenter\\Providers\\CryptoCallCenterServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

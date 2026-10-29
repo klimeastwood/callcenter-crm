@@ -1,0 +1,15 @@
+<Project Sdk="Devsense.Php.Sdk">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>037e32a9-e6a2-8583-c237-e1f045adba13</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnvName>PHPDev</EnvName>
+    <RootNamespace>crm_klim</RootNamespace>
+    <WebRoot>public</WebRoot>
+    <RuntimeVersion>8.4</RuntimeVersion>
+    <SaveServerSettingsInUserFile>false</SaveServerSettingsInUserFile>
+    <PHPDevHostName>localhost</PHPDevHostName>
+    <PHPDevAutoPort>true</PHPDevAutoPort>
+    <PHPDevRouting />
+  </PropertyGroup>
+</Project>
