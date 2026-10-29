@@ -1,10 +1,11 @@
 {
-    "name": "krayin/laravel-crm",
+    "name": "cryptoisk/crm",
     "type": "project",
-    "description": "Krayin CRM",
+    "description": "CRYPTOISK Educational CRM",
     "keywords": [
-        "framework",
-        "laravel"
+        "crm",
+        "laravel",
+        "education"
     ],
     "license": "MIT",
     "require": {
@@ -33,7 +34,6 @@
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.14",
         "fakerphp/faker": "^1.23",
-        "krayin/krayin-package-generator": "dev-master",
         "laravel/pint": "^1.18",
         "laravel/sail": "^1.38",
         "mockery/mockery": "^1.6",
