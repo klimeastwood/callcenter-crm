@@ -59,12 +59,10 @@ node_modules/
 /storage/framework/views/*
 /storage/framework/testing/*
 
-# === Базы данных и дампы ===
 *.sql
 *.sqlite
 /database/database.sqlite
 
-# === IDE и ОС ===
 .idea/
 .vscode/
 .vs/
@@ -73,13 +71,11 @@ node_modules/
 .DS_Store
 Thumbs.db
 
-# === Временные файлы и кэш ===
 *.log
 .phpunit.result.cache
 .phpunit.cache
 /.phpunit.cache
 
-# === Внутренняя документация и контекст ИИ ===
 PROJECT_CONTEXT.md
 .clinerules/
 .agents/
@@ -88,5 +84,3 @@ CLAUDE.md
 .cursorrules
 .windsurfrules
 CHANGELOG.md
-
-.gitignore
