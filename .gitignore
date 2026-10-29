@@ -78,3 +78,18 @@ Thumbs.db
 .phpunit.result.cache
 .phpunit.cache
 /.phpunit.cache
+
+# === Внутренняя документация и контекст ИИ ===
+PROJECT_CONTEXT.md
+.clinerules/
+.agents/
+AGENTS.md
+CLAUDE.md
+.cursorrules
+.windsurfrules
+
+# === Следы Krayin (если не хотите афишировать) ===
+# ВНИМАНИЕ: Не добавляйте сюда composer.json или другие рабочие файлы!
+# Только документацию или временные файлы, если они есть.
+# Например, если у вас есть файл с историей Krayin:
+CHANGELOG.md
